@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Stylelint
-npx stylelint '**/*.scss' --fix
-
 # Prettier
 npx prettier --write './!(public)/**/*.{css,html,md,scss,svg,yml}'
 
