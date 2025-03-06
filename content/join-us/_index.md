@@ -6,4 +6,4 @@ _build:
 
 **入部受付フォーム**から登録されたメールアドレス宛に、**入部方法や見学等のご案内メール**をお送りします。
 
-また、[LINE オープンチャット](https://line.me/ti/g2/HParErij--I835lSEnSJeevqTnb_YTRqx-Movw)も開設しています。デジクリのイベント情報を配信するほか、**匿名でデジクリ部員に質問する**ことが可能です。
+また、[LINE オープンチャット](https://line.me/ti/g2/UfhEOyteJRjyQLm-c9Mmhj_9wvIKCBDEohh_WQ)も開設しています。デジクリのイベント情報を配信するほか、**匿名でデジクリ部員に質問する**ことが可能です。
