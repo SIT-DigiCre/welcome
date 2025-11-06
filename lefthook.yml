@@ -1,0 +1,6 @@
+pre-commit:
+  commands:
+    format:
+      run: npm run format
+      stage_fixed: true
+      fail_text: "コードの整形に失敗しました。修正してください。"
