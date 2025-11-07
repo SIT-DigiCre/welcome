@@ -37,7 +37,7 @@ GitHub Actions を利用し，`master` ブランチが push された場合，**
 
 ## 🖌️ 依存関係をアップデートする
 
-Stylelint や Prettier といった pnpm パッケージから GitHub Actions で使用している各種アクションといった依存関係のアップデートを自動化するために Renovate を使っています。
+Stylelint や Prettier といった npm パッケージから GitHub Actions で使用している各種アクションといった依存関係のアップデートを自動化するために Renovate を使っています。
 
 このサイトは年に数回しか更新しないと想定されるので，依存関係のアップデートを自動で確認する頻度を「**年に 1 回だけ**」と設定してあります（cf. `renovate.json`）。
 
