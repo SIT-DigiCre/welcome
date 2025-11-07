@@ -19,17 +19,17 @@ menu:
   links:
     - identifier: "twitter"
       name: "X (Twitter)"
-      url: "https://twitter.com/sitdigicre"
+      url: "https://x.com/sitdigicre"
       weight: 10
     - identifier: "youtube"
       name: "YouTube"
       url: "https://www.youtube.com/@sitdigicre"
       weight: 20
-    - identifier: "line"
-      name: "LINE オープンチャット"
-      url: "https://line.me/ti/g2/UfhEOyteJRjyQLm-c9Mmhj_9wvIKCBDEohh_WQ"
-      weight: 30
-    - identifier: "digicre"
+    # - identifier: "line"
+    #   name: "LINE オープンチャット"
+    #   url: "https://line.me/ti/g2/UfhEOyteJRjyQLm-c9Mmhj_9wvIKCBDEohh_WQ"
+    #   weight: 30
+    # - identifier: "digicre"
       name: "ウェブサイト"
       url: "https://digicre.net"
       weight: 40
@@ -48,10 +48,6 @@ menu:
       name: "PG 班"
       url: "https://digicre.net/about/pg"
       weight: 10
-    - identifier: "sys-dev"
-      name: "SysDev 班"
-      url: "https://digicre.net/about/sysdev"
-      weight: 20
     - identifier: "2dcg"
       name: "イラスト班"
       url: "https://digicre.net/about/2dcg"
@@ -72,10 +68,6 @@ menu:
       name: "VTuber 班"
       url: "https://www.youtube.com/channel/UCgh1tbd7SC4qv9A6RffbB0g"
       weight: 70
-    - identifier: "xr"
-      name: "xR 班"
-      url: "https://digicre.net/about/xr"
-      weight: 80
     - identifier: "writing"
       name: "文字書き班"
       url: ""

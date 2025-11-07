@@ -10,28 +10,26 @@
 
 ## 🛠️ 環境構築
 
-> **Warning**
->
+> [!WARNING]
 > これは **Hugo，Node.js，Git がインストール済みである場合の手順**です。それぞれのインストール手順については，公式ドキュメント等を参照してください。
 
 1. このリポジトリを clone します。
-2. Clone したリポジトリのルートディレクトリで `npm i` を実行します。
+2. Clone したリポジトリのルートディレクトリで `pnpm i` を実行します。
 
 ## 📝 コンテンツを編集する
 
 - **文章**：`content/` 以下の Markdown ファイル（`.md`）を編集してください。
 - **画像**：`assets/img/` 以下の当該ファイルを編集してください。
 - **メニュー，カレンダー，動画の URL 等**：`config/hugo.yml` の `menu` を編集してください。
-  > **Warning**
-  >
+  > [!WARNING]
   > URL を修正する場合は，主要なエディターに搭載されている「ファイルを横断して一括置換する機能」の利用を推奨します。
 
 また，編集時に役立つデバッグコマンドを用意してあります（cf. `package.json`）。
 
-- `npm run format`：コードを整形します（`format.sh` の実行）。
-- `npm run preview`：サイトの動作をプレビューできます。
-- `npm run dev`：**開発環境**としてサイトをビルドします（`hugo -e development` と同じ）。
-- `npm run build`：サイトをビルドします。
+- `pnpm run format`：コードを整形します（`format.sh` の実行）。
+- `pnpm run preview`：サイトの動作をプレビューできます。
+- `pnpm run dev`：**開発環境**としてサイトをビルドします（`hugo -e development` と同じ）。
+- `pnpm run build`：サイトをビルドします。
 
 ## 🚀 サイトを公開する
 
