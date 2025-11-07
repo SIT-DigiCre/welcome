@@ -11,23 +11,23 @@
 ### セットアップ
 
 ```bash
-npm i
+pnpm i
 ```
 
 ### 開発
 
 ```bash
 # サイトをプレビュー（開発サーバー起動）
-npm run preview
+pnpm run preview
 
 # 開発環境用ビルド（hugo -e development と同じ）
-npm run dev
+pnpm run dev
 
 # 本番用ビルド（minify 有効）
-npm run build
+pnpm run build
 
 # コード整形（Prettier + HTML 末尾空行削除）
-npm run format
+pnpm run format
 ```
 
 ## コード整形について
@@ -82,7 +82,7 @@ URL を変更する際は、プロジェクト全体で一括置換を推奨。
 - **プロセス**:
   1. Hugo セットアップ（extended version）
   2. Node.js セットアップ
-  3. npm 依存関係インストール
+  3. pnpm 依存関係インストール
   4. コード整形実行
   5. 本番ビルド実行
   6. `public/` ディレクトリを `gh-pages` ブランチへデプロイ
@@ -92,7 +92,7 @@ URL を変更する際は、プロジェクト全体で一括置換を推奨。
 
 Renovate により年 1 回（毎年 1 月 1 日）自動更新される：
 
-- npm パッケージ（Prettier, プラグイン等）
+- pnpm パッケージ（Prettier, プラグイン等）
 - GitHub Actions のバージョン（SHA ピン留め付き）
 
 設定: [renovate.json](renovate.json)

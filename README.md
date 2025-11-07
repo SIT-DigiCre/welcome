@@ -14,7 +14,7 @@
 > これは **Hugo，Node.js，Git がインストール済みである場合の手順**です。それぞれのインストール手順については，公式ドキュメント等を参照してください。
 
 1. このリポジトリを clone します。
-2. Clone したリポジトリのルートディレクトリで `npm i` を実行します。
+2. Clone したリポジトリのルートディレクトリで `pnpm i` を実行します。
 
 ## 📝 コンテンツを編集する
 
@@ -26,10 +26,10 @@
 
 また，編集時に役立つデバッグコマンドを用意してあります（cf. `package.json`）。
 
-- `npm run format`：コードを整形します（`format.sh` の実行）。
-- `npm run preview`：サイトの動作をプレビューできます。
-- `npm run dev`：**開発環境**としてサイトをビルドします（`hugo -e development` と同じ）。
-- `npm run build`：サイトをビルドします。
+- `pnpm run format`：コードを整形します（`format.sh` の実行）。
+- `pnpm run preview`：サイトの動作をプレビューできます。
+- `pnpm run dev`：**開発環境**としてサイトをビルドします（`hugo -e development` と同じ）。
+- `pnpm run build`：サイトをビルドします。
 
 ## 🚀 サイトを公開する
 
@@ -37,7 +37,7 @@ GitHub Actions を利用し，`master` ブランチが push された場合，**
 
 ## 🖌️ 依存関係をアップデートする
 
-Stylelint や Prettier といった npm パッケージから GitHub Actions で使用している各種アクションといった依存関係のアップデートを自動化するために Renovate を使っています。
+Stylelint や Prettier といった pnpm パッケージから GitHub Actions で使用している各種アクションといった依存関係のアップデートを自動化するために Renovate を使っています。
 
 このサイトは年に数回しか更新しないと想定されるので，依存関係のアップデートを自動で確認する頻度を「**年に 1 回だけ**」と設定してあります（cf. `renovate.json`）。
 
