@@ -10,16 +10,16 @@ importers:
     devDependencies:
       '@prettier/plugin-xml':
         specifier: 3.4.1
-        version: 3.4.1(prettier@3.5.3)
+        version: 3.4.1(prettier@3.8.1)
       lefthook:
         specifier: 2.0.2
         version: 2.0.2
       prettier:
-        specifier: 3.5.3
-        version: 3.5.3
+        specifier: 3.8.1
+        version: 3.8.1
       prettier-plugin-go-template:
         specifier: 0.0.15
-        version: 0.0.15(prettier@3.5.3)
+        version: 0.0.15(prettier@3.8.1)
 
 packages:
 
@@ -94,8 +94,8 @@ packages:
     peerDependencies:
       prettier: ^3.0.0
 
-  prettier@3.5.3:
-    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+  prettier@3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -108,10 +108,10 @@ packages:
 
 snapshots:
 
-  '@prettier/plugin-xml@3.4.1(prettier@3.5.3)':
+  '@prettier/plugin-xml@3.4.1(prettier@3.8.1)':
     dependencies:
       '@xml-tools/parser': 1.0.11
-      prettier: 3.5.3
+      prettier: 3.8.1
 
   '@xml-tools/parser@1.0.11':
     dependencies:
@@ -164,12 +164,12 @@ snapshots:
       lefthook-windows-arm64: 2.0.2
       lefthook-windows-x64: 2.0.2
 
-  prettier-plugin-go-template@0.0.15(prettier@3.5.3):
+  prettier-plugin-go-template@0.0.15(prettier@3.8.1):
     dependencies:
-      prettier: 3.5.3
+      prettier: 3.8.1
       ulid: 2.4.0
 
-  prettier@3.5.3: {}
+  prettier@3.8.1: {}
 
   regexp-to-ast@0.5.0: {}
 
